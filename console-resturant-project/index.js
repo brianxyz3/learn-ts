@@ -24,3 +24,9 @@ const completeOrder = (orderId) => {
     const completedOrder = orderQueue.find(orderedPizza => orderedPizza.id === orderId);
     return completedOrder.status = "completed";
 }
+
+addNewPizza({name: "spicy sausage", price: 3})
+addNewPizza({name: "bbq chicken", price: 10})
+addNewPizza({name: "spicy chicken", price: 15})
+
+console.log(menu);
